@@ -1,0 +1,19 @@
+/* Custom styles for the dropdown menu */
+.navbar-nav .dropdown-menu {
+    background-color: rgb(66, 92, 80);
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #ffffff; /* Adjust this to fit your color palette */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-menu .dropdown-item:focus {
+    background-color: rgb(66, 92, 80);
+    color: #f0f0f0; /* Adjust this to fit your color palette */
+}
+
+/* Optional: Styles for the dropdown toggle */
+.navbar-nav .dropdown-toggle::after {
+    color: #ffffff;
+}
